@@ -1,0 +1,28 @@
+3
+4
+2
+1 ProjectA
+ProjectB
+2 ProjectB
+ProjectD
+ProjectC
+1 ProjectC
+ProjectD
+0 ProjectD
+b ProjectA
+b ProjectC
+2
+1
+1 ProjectA
+ProjectB
+1 ProjectB
+ProjectA
+b ProjectA
+3
+1
+2 ProjectA
+ProjectC
+ProjectB
+0 ProjectC
+0 ProjectB
+b ProjectA
