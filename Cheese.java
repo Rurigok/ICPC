@@ -1,14 +1,15 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 class Sphere {
 
-  public int x;
-  public int y;
-  public int z;
-  public int r;
+  public double x;
+  public double y;
+  public double z;
+  public double r;
   public double v;
 
-  public Sphere(int r, int x, int y, int z) {
+  public Sphere(double r, double x, double y, double z) {
     this.x = x;
     this.y = y;
     this.z = z;
@@ -17,6 +18,7 @@ class Sphere {
 
   public double volume() {
     v=(4.0/3)*Math.PI * Math.pow(r, 3);
+    return v;
   }
 
   public double getDiscIntegral(double a, double b) {
@@ -56,7 +58,7 @@ public class Cheese {
     }
     double totalVolume=(100000.0*100000.0*100000.0)-totalHoleVolume;
     double sliceVolume=totalVolume/numslices;
-    int desiredZ=100000/numslices;
+    double desiredZ=100000/numslices;
 
 
   }
